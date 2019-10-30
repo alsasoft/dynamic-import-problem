@@ -9,4 +9,4 @@ console.log('requiredPackage1', requiredPackage1);
 
 // Esto falla, pese a que el valor de componentRoute === './scope/entity/action.jsx'
 const requiredPackage2 = import(componentRoute);
-console.log('requiredPackage', requiredPackage);
+console.log('requiredPackage2', requiredPackage2);
